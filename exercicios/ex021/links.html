@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elementos em css</title>
+    <style>
+       body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       a{
+            color: rgba(255, 0, 0, 0.425);
+            text-decoration: none;
+        }
+        a:visited{color: red;} /* muda a cor do site visitado */
+        a:hover{
+                color: lightblue;
+                text-decoration: underline;
+        }
+        a:active{ color:yellow;}
+        a::before{
+            content: '-->';
+        }
+        a::after{content: ' {link}';
+                color: rgb(255, 0, 149);
+                background-color: rgba(83, 83, 228, 0.267);
+                text-decoration: none;
+    
+    }
+    .especial{background-color: rgba(37, 143, 85, 0.205);}
+
+
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/thygasdev" target="_blank">/github</a></li>
+        <li ><a href="https://www.youtube.com/@SlayerBlackLegacy" target="_blank" class="especial" >/youtube</a></li>
+        <li><a href="https://www.leagueofgraphs.com/pt/champions/builds/zed" target="_blank">/buildmono</a></li>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídias em html5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abri essa imagem em seu navegador em outros dispositivos(pc celular tablet)
+        ou aumente e diminua a tela do navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1000px )" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprende a reproduzir audio</p>
+    <audio src="midia/Aatrox Song (League of Legends) _ INIMIGO MORRENDO _ Ishida.mp3" 
+    controls autoplay></audio>
+<br>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Aatrox Song (League of Legends) _ INIMIGO MORRENDO _ Ishida.mp3" type="audio/mp3">
+
+        <source src="midia/Aatrox Song (League of Legends) _ INIMIGO MORRENDO _ Ishida.ogg" type="audio/ogg">
+
+        <source src="midia/Aatrox Song (League of Legends) _ INIMIGO MORRENDO _ Ishida.waw" type="audio/waw"></audio><!-- poem outros arquivos ogg waw-->
+        <p>infelizmente seu navegador nao consegue reproduzir o audio <a href="midia/Aatrox Song (League of Legends) _ INIMIGO MORRENDO _ Ishida.mp3">aki o download</a></p>
+
+</body>
+</html>

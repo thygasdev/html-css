@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(129, 131, 143);
+            margin: 0;
+        }
+        header{
+          
+          background-color: white;
+          margin: 10px;
+          padding:10px;
+        }
+        nav{
+            background-color: rgb(109, 113, 116);
+            padding: 0px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.356);
+        }
+        nav>a{
+            text-decoration: none;
+            font-weight: bold;
+            color: whitesmoke;
+            margin-right: 33px;
+        }
+        nav>a:hover{
+            text-decoration: underline;
+        }
+        article{
+            background-color: lightgray;
+            padding: 3px;
+            border-radius: 12px 30px;
+        }
+        article>aside{
+            background-color: rgb(167, 167, 167);
+        }
+        main{
+            background-color: rgb(75, 81, 117);
+            margin: 10px;
+            padding:10px;
+            border-radius: 1px 30px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.356);
+        }
+        footer{
+            background-color: black;
+            color: blanchedalmond;
+            text-align:center;
+            padding: 4px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav> 
+                <a href="">link</a>
+                <a href="">link</a>
+                <a href="">link</a>
+                <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="asuntos">
+            <p>esportes politica tecnologia </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre lorem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facere tempora fugiat quis temporibus laudantium, fugit nihil iste odit, sequi soluta adipisci delectus eligendi perspiciatis libero! Nihil ratione distinctio provident?</p>
+                <aside><p>artigo feito por lorem da silva</p></aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; desenvolvido por thygasdev</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
