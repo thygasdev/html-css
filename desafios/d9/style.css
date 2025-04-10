@@ -17,7 +17,7 @@ header > h1{
     color: white;
     font-variant: small-caps;
     text-align: center;
-    font-size: 90px;
+    font-size: 10vw;
 }
 p > a{  color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -35,6 +35,9 @@ font-size: 30px;
 div{
     padding-top: 10vh;
     padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 4.5vw;
 }
 
 div.d1{
@@ -46,9 +49,11 @@ div.d1{
 div.d2{
     background-color: rgb(71, 68, 68);
     color: white;
+    
 }
 div.d2 > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.356);
 }
     
