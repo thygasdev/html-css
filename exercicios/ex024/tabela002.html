@@ -24,6 +24,12 @@
             border: 1px solid black;
           
         }
+        tbody > tr:nth-child(2n){
+            background-color: lightcoral;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightseagreen;
+        }
         td.num{
             text-align: right;
         }
@@ -40,8 +46,8 @@
         <caption> população de estados</caption>
         <thead>
             <tr>
-                <th>estado</th>
-                <th>população</th>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 50px;">população</th>
             </tr>
         </thead>
         <tbody>
@@ -156,7 +162,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>cuscuz paulista</th>
+                <th scope="row">cuscuz paulista</th>
                 <td><strong>777.777.777</strong></td>
             </tr>
         </tfoot>
