@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+        table{      
+          
+            width: 330px;
+            border-collapse: collapse;
+        }
+        th, td{ 
+            border: 1px solid black;
+            
+            padding: 10px;
+        }
+        .t1{
+            text-align: left;
+
+        }
+        th{
+            background-color: gray;
+            color: white;
+        }
+        .t2{
+           background-color: gray;
+           color: white; 
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">area</th>
+                <th rowspan="2">disciplina</th>
+                <th colspan="2">notas</th>
+                <th rowspan="2">media</th>
+                
+            </tr>
+            <tr>
+                <th>nota1</th>
+                <th>nota2</th>
+                
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5"><strong>exatas</strong></td>
+                <td>mt</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <tr>
+                    <td>fis</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>qui</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>bio</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+            </tr>
+            
+            <tr><th colspan="4" class="t1"> media de exatas</th> <td class="t2"> 0.0</td></tr>
+            <tr>
+                <td rowspan="2"> <strong>humanas</strong></td>
+                <td>hist</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+               
+            </tr>
+            <tr>
+                <td>geo</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><th colspan="4" class="t1"> media de humanas</th> <td class="t2"> 0.0</td></tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
