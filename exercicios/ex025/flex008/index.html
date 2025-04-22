@@ -8,7 +8,8 @@
         div.conteiner{
             background-color: lightcyan;
             display: flex;
-
+            align-items: flex-start;
+            height: 300px;
         }
         div.item{
             background-color: lightcoral;
@@ -16,23 +17,39 @@
             text-align: center;
             padding: 20px;
         }
+      
         #a{
-            order: 6 ;
+           align-self:baseline ;
+        }
+        #b{
+            align-self:  center;
+        }
+        #c{
+            align-self:flex-start ;
         }
         #d{
-            order: 7;
+            align-self: flex-end;
+        }
+        #e{
+            align-self: stretch;
+        }
+        #f{
+            align-self: unset ;
+        }
+        #g{
+            align-self: initial;
         }
     </style>
 </head>
 <body>
     <div class="conteiner" >
         <div class="item" id="a">a</div>
-        <div class="item">b</div>
-        <div class="item">c</div>
+        <div class="item" id="b">bbbb</div>
+        <div class="item" id="c"> c</div>
         <div class="item" id="d">d</div>
-        <div class="item">e</div>
-        <div class="item">f</div>
-        <div class="item">g</div>
+        <div class="item" id="e">e</div>
+        <div class="item" id="f">f</div>
+        <div class="item" id="g">g</div>
 
     </div>
 </body>
