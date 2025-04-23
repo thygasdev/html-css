@@ -8,23 +8,40 @@
         div.conteiner{
             background-color: lightcyan;
             display: flex;
-            flex-flow: row wrap;
+            flex-flow: row nowrap;
         }
         div.item{
             background-color: lightcoral;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 250px;
+            flex-basis: 150px;
             flex-shrink: 1;
+            flex-grow: 1 ;
+        }
+        div.item2{
+            background-color: lightcoral;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 150px;
+            flex-shrink: 1;
+            flex-grow: 2 ;
+        }
+        div.item3{
+            background-color: lightcoral;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 150px;
+            flex-shrink: 2;
             flex-grow: 0 ;
         }
+       
     </style>
 </head>
 <body>
     <div class="conteiner" >
         <div class="item">a</div>
-        <div class="item">b</div>
-        <div class="item">c</div>
+        <div class="item2" >b</div>
+        <div class="item3">c</div>
       
 
     </div>
