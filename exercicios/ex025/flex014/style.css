@@ -12,9 +12,14 @@ body{
     line-height: 1.5em;
 
 }
-p,h1,h2{
+p{
     margin-bottom: 10px;
     text-align: justify;
+}
+h1,h2{
+    margin-bottom: 20px;
+    line-height:1.2em ;
+    text-align: left;
 }
 header,section.normal{
     padding: 20px;
@@ -48,11 +53,12 @@ div.media > img{
     display: block;
     margin: auto;
     width: 300px;
+    padding: 10px;
 }
 div.media > iframe{
     display: block;
     margin: auto;
-    width: 90p%;
+    width: 90%;
 }
 
 
