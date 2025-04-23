@@ -21,6 +21,23 @@ header{
  text-align: center;
  font-family: "Cinzel", serif;
 }
+header > h1{
+    margin-bottom: 12px;
+}
+header > nav > a{
+     background-color: #172121;
+     color: #3185FC;
+     border-radius: 10px;
+     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.212);
+     padding: 4px;
+     text-decoration: none;
+     text-align: center;
+}
+header > nav > a:hover{
+    background-color: #3185FC;
+    color: #172121;
+    transition:background-color .5s;
+    }
 main{
         background-color: #172121;
         margin: 10px;
